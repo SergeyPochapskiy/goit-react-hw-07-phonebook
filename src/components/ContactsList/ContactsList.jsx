@@ -1,6 +1,6 @@
 import { List, Item, Button } from './ContactsList.styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteContact } from 'redux/operations';
+import { deleteContact } from 'redux/contacts/operations';
 import PropTypes from 'prop-types';
 import { selectContacts, selectFilter } from 'redux/selectors';
 
